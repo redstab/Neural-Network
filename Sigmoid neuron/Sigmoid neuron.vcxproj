@@ -20,11 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{9707BB45-3E54-4157-9CF4-365E61ABB5D9}</ProjectGuid>
+    <ProjectGuid>{CA9A42C5-D18A-4A66-9CBB-8D73EB6DABF7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>PerceptronwithBias</RootNamespace>
+    <RootNamespace>Sigmoidneuron</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>[1] Perceptron with Bias</ProjectName>
+    <ProjectName>[2] Sigmoid neuron</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -148,10 +148,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Neuron.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Perceptron.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
